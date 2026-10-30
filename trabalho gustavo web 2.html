@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Julia Cariaga — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+  <a class="logo" href="#topo">julia<span>.</span>cariaga</a>
+  <nav id="nav">
+    <a href="#sobre">Sobre mim</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+  </nav>
+  <div style="display:flex;gap:8px">
+    <button class="ib" id="theme" aria-label="Alternar modo claro e escuro">◐</button>
+    <button class="ib" id="burger" aria-label="Abrir menu">☰</button>
+  </div>
+</div></header>
+
+<main id="topo">
+<section class="hero"><div class="blob b1"></div><div class="blob b2"></div>
+  <div class="wrap">
+    <div class="kicker">TI integrado ao Ensino Médio · 2º ano</div>
+    <h1>Oi, eu sou a <em>Julia</em>.</h1>
+    <p class="lead">Eu transformo ideias em jogos, apps e negócios. Gosto de tecnologia com cor, personalidade e um toque de esmalte.</p>
+    <a class="btn alt" href="#projetos">Ver projetos</a><a class="btn" href="#contato">Vamos conversar</a>
+  </div>
+</section>
+
+<section id="sobre"><div class="wrap">
+  <div class="kicker rv">01 — Sobre mim</div>
+  <h2 class="rv">Código, criatividade e empreendedorismo</h2>
+  <div class="about">
+    <div class="rv">
+      <p>Meu nome é Julia Cariaga e estou no segundo ano do curso de TI integrado ao Ensino Médio. É aqui que aprendo a criar tecnologia, mas o que me move é usar isso para fazer coisas que as pessoas queiram usar.</p>
+      <p>Já criei jogos (de cuidar de bichinhos, de terror e de aventura mágica), planejei uma empresa de unhas inovadoras, com proposta de parceria com marcas de esmalte, e fiz uma experiência visual psicodélica sobre hipnose. Para mim, programar e empreender andam juntos.</p>
+    </div>
+    <div class="facts rv">
+      <div class="fact"><b>Formação</b>TI integrado ao Ensino Médio — 2º ano</div>
+      <div class="fact"><b>O que eu curto</b><div class="chips"><span class="chip">Jogos</span><span class="chip">Design</span><span class="chip">Negócios de beleza</span><span class="chip">Apps</span></div></div>
+      <div class="fact"><b>Meu estilo</b>Vinho, blush e dourado para o lado sofisticado, e rosa-chiclete para o lado divertido.</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="projetos"><div class="wrap">
+  <div class="kicker rv">02 — Projetos</div>
+  <h2 class="rv">O que eu já criei</h2>
+  <div class="filters rv" role="group" aria-label="Filtrar projetos">
+    <button class="f" data-f="all" aria-pressed="true">Todos</button>
+    <button class="f" data-f="jogo" aria-pressed="false">Jogo / App</button>
+    <button class="f" data-f="negocio" aria-pressed="false">Negócio</button>
+    <button class="f" data-f="visual" aria-pressed="false">Experiência visual</button>
+  </div>
+  <div class="grid">
+    <article class="proj p1 rv" data-c="jogo">
+      <div class="cover">🐶🐱🐰</div>
+      <div class="pb"><div class="chips"><span class="chip">Jogo</span><span class="chip">HTML · CSS · JS</span></div>
+        <h3 style="margin-top:12px">Pet Shop Feliz</h3>
+        <p>Jogo de gerenciar um pet shop com fases em mapa, clientes com pedidos, minijogos, loja de melhorias e sons. Feito para jogar no celular.</p>
+        <a class="btn alt" href="projetos/pet-shop-feliz.html" target="_blank" rel="noopener">Jogar</a></div>
+    </article>
+    <article class="proj p4 rv" data-c="jogo">
+      <div class="cover">🔦🏚️🩸</div>
+      <div class="pb"><div class="chips"><span class="chip">Jogo</span><span class="chip">Terror</span></div>
+        <h3 style="margin-top:12px">Sanatório Sangue-Cinza</h3>
+        <p>Jogo de terror e exploração: use a lanterna, administre a bateria, corra e use tônicos para sobreviver dentro do sanatório.</p>
+        <a class="btn alt" href="projetos/sanatorio-sangue-cinza.html" target="_blank" rel="noopener">Jogar</a></div>
+    </article>
+    <article class="proj p5 rv" data-c="jogo">
+      <div class="cover">👑💎✨</div>
+      <div class="pb"><div class="chips"><span class="chip">Jogo</span><span class="chip">Aventura</span></div>
+        <h3 style="margin-top:12px">Shimmer: Reinos Mágicos</h3>
+        <p>Aventura da princesa Shimmer por um mapa de reinos mágicos, movendo-se com as setas para coletar tesouros e desbloquear novos níveis.</p>
+        <a class="btn alt" href="projetos/shimmer-reinos-magicos.html" target="_blank" rel="noopener">Jogar</a></div>
+    </article>
+    <article class="proj p2 rv" data-c="negocio">
+      <div class="cover">Rede Neural Unhas</div>
+      <div class="pb"><div class="chips"><span class="chip">Negócio</span><span class="chip">Consultoria</span></div>
+        <h3 style="margin-top:12px">Rede Neural Unhas</h3>
+        <p>Empresa de unhas postiças com sistema de mini trava, cursos e loja online, com proposta de parceria com marcas de esmalte para expandir o comércio.</p>
+        <a class="btn" href="projetos/rede-neural-unhas.html" target="_blank" rel="noopener">Ver projeto</a></div>
+    </article>
+    <article class="proj p3 rv" data-c="visual">
+      <div class="cover">HYPNOS</div>
+      <div class="pb"><div class="chips"><span class="chip">Experiência visual</span><span class="chip">Canvas · Animações</span></div>
+        <h3 style="margin-top:12px">HYPNOS</h3>
+        <p>Site psicodélico sobre hipnose, com espirais, vórtice, túnel e mandala animados e controle de velocidade. Atenção: tem efeitos de luz intensos.</p>
+        <a class="btn alt" href="projetos/hypnos.html" target="_blank" rel="noopener">Entrar no transe</a></div>
+    </article>
+  </div>
+</div></section>
+
+<section id="contato"><div class="wrap">
+  <div class="kicker rv">03 — Contato</div>
+  <h2 class="rv">Vamos criar algo juntos?</h2>
+  <form class="rv" id="form" novalidate>
+    <label for="n">Seu nome</label><input id="n" required autocomplete="name">
+    <label for="e">Seu e-mail</label><input id="e" type="email" required autocomplete="email">
+    <label for="m">Mensagem</label><textarea id="m" required></textarea>
+    <button class="btn alt" type="submit" style="margin-top:18px">Enviar mensagem</button>
+    <div id="msg" role="status"></div>
+  </form>
+</div></section>
+</main>
+<footer>Feito por Julia Cariaga · 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
